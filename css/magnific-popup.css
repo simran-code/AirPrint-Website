@@ -349,3 +349,22 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+
+
+
+  .column {
+    float: left;
+    width: 80.33%;
+    padding-left: 90px;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  
+
+}
+
